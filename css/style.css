@@ -7,7 +7,9 @@ body{
 
 header{
     background-color: #FFD900;
-    padding: 20px;
+    padding-left: 58px;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 
 section{
@@ -99,3 +101,51 @@ section{
     height: 100%;
     object-fit: cover;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+#garanta {
+    display: flex;
+}
+
+#garantir{
+    color: #F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#garantir h5{
+    text-align: left;
+    margin-left: 30px;
+}
+
+#ingressos{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer input {
+    width: 350px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #514988;
+    display: flex;
+    width: 417px;
+    height: 80px;
+    justify-content: center;
+    color: #FFF;
+    font-size: 25px;
+    margin-top: 57px;
+    margin-left: 100px;
+}
+
