@@ -125,13 +125,17 @@ footer{
 #garantir h5{
     text-align: left;
     margin-left: 30px;
+    margin-left: 29px;
+    padding-left: 20px;
 }
 
 #ingressos{
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin-left: 21px;
 }
+
 
 footer input {
     width: 350px;
@@ -146,6 +150,6 @@ footer input {
     color: #FFF;
     font-size: 25px;
     margin-top: 57px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
