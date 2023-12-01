@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+    padding: 20px;
+}
+
+section{
+    display: flex;
+    grid-auto-columns: 50vw;
+    box-sizing: border-box;
+}
+
+#texto, #container-video{
+    width: 50vw;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+#texto{
+    text-align: center;
+    background: #514988;
+    padding: 20px;
+    
+}
+
+#texto h1{
+    color: #F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#texto h5{
+    color: #FFF;
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#texto p{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+}
+
+#container-video{
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+}
+
+.timer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 70px;
+    color: #514988;
+    height: 175px;
+    margin-top: -10px;
+    margin-bottom: -40px;
+}
+
+#aviso{
+    color: #E33881;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#aviso p{
+    margin-top: 20px;
+}
+
+
+#video {
+    /* Estas propriedades garantem que a divisão seja flexível */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Isso garante que o vídeo preencha a div */
+    width: 100%;
+    height: 100%;
+}
+
+#video video {
+    height: 100%;
+    object-fit: cover;
+}
