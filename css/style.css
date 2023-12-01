@@ -153,3 +153,9 @@ footer input {
     margin-left: 50px;
 }
 
+
+#botao input:hover {
+    cursor: pointer;
+    background: #514988;
+    color: #F3C61F;
+}
