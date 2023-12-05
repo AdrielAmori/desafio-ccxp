@@ -55,21 +55,25 @@
 
         <div id="garanta">
             <div id="ingressos">
-                <img src="./img/quinta.svg" alt="">
-                <img src="./img/sexta.svg" alt="">
-                <img src="./img/sabado.svg" alt="">
-                <img src="./img/domingo.svg" alt="">
+                <img class="cards-ingressos" src="./img/quinta.svg" onmouseover="highlightCard('#quinta')" onclick="selectCard('#quinta')" id="quinta" alt="">
+                <img class="cards-ingressos" src="./img/sexta.svg" onmouseover="highlightCard('#sexta')" onclick="selectCard('#sexta')" id="sexta" alt="">
+                <img class="cards-ingressos" src="./img/sabado.svg" onmouseover="highlightCard('#sabado')" onclick="selectCard('#sabado')" id="sabado" alt="">
+                <img class="cards-ingressos" src="./img/domingo.svg" onmouseover="highlightCard('#domingo')" onclick="selectCard('#domingo')" id="domingo" alt="">
             </div>
             
             <div id="botao">
-                <input type="button" value="GARANTA O SEU!">
+                <input type="button" onclick = "showSelectCards()" value="GARANTA O SEU!">
             </div>
         </div>
-
-        
-        
     </footer>
+    <div>
+        <form action="https://www.google.com">
+            <input type="email" placeholder="Seu e-mail" required>
+            <input type="submit">
+        </form>
+    </div>
 
     <script src="./js/cronometro.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

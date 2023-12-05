@@ -159,3 +159,27 @@ footer input {
     background: #514988;
     color: #F3C61F;
 }
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+
+.card-selected  {
+    border: 5px solid green;
+}
+
+form{
+    background-color: #FFD900;
+}
+
+form input{
+    background: #514988;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
